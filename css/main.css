@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logTit{
+    display: grid;
+    grid-template-columns: 7% auto auto auto;
+    grid-template-rows: auto;
+
+} 
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+ .logo img{
+    width: 60%;
+    height: auto;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.venta{
+    display: flex;
+    align-items: center;
+}
+   .logtit, p{
+     display: flex;
+    align-items: center;
+    }
+
+.menu {
+    background-color: #F24954;
+
+}
+
+.menu ul li{    
+    display: inline-block; /*mejor usar este que inline solo */
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    color :#FBFCFC ;
+    font-size: 1.2rem;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;  
+    }   
+     
+   
+   .imagen1, img{
+       width: 50%;     
+             
+      
+   }
+   
+   .imagen1{     
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        
+   }
+   h2{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+     color: #F24954;
+    font-size: 2rem;
+      margin-top: 15px;
+     text-align: center;       
+   
+   } 
+   p{
+    font-size: 1.2rem;
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   
+}  
+.elegi{
+    display: none;
+}   
+    .mainP{
+        height: 70vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        align-items: center;     
+        
+    }     
+   
+.botaWalker{
+    width: 45%;
+
+}
+.ayudasCaminar{
+    width: 60%;  
+}
+.productosCompresion{
+    width: 60%;
+}
+.silla{
+    width: 65%;
+}
+
+ .segundaParte footer h3{
+ text-align: center; 
+ margin-top: 200px;
+ font-size: 1rem;
+   
+}
+
+
+@media only screen and (max-width: 600px){
+    .logTit{
+        display: grid;
+        grid-template-columns: 7% auto;
+        grid-template-rows: auto;      
+    
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    .venta{
+        display: none;
+    }
+   
+    .logtit, p{
+        display: none;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+        
+    .elegi{
+        font-size: 0.8rem;
+        display: flex;     
+             
+    }      
+    .menu{
+        text-align: center;
+    }
+    .menu.servicios{
+        display: none;
+    }
+    .menu .nosotros{
+        display: none; 
+    }    
+    .menu ul li{   
+      padding: 3px;
+        margin: 1px;
+      font-size: 0.8rem;      
+              
+    }
+                
+     .mainP .botaWalker img{
+            width: 50%;
+            height :auto;
+            margin-left: 80px;
+            
+        }
+        
+         .mainP .ayudasCaminar img{
+            width: 40%;
+             height: auto;
+             margin-left: 30px;
+             }
+        .mainP .productosCompresion img{
+            width: 65%;
+             height: auto; 
+             margin-left: 70px;  
+            
+        }
+        
+        .mainP .silla img{
+            width: 40%;
+            height: auto;
+            margin-left: 40px;
+        }
+        .segundaParte footer h3{
+           font-size: 0.7rem;
+       }
+ 
+}
+
+
+
+
+  
+   
+    
+
+
+    
+  
